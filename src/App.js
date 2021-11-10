@@ -36,7 +36,7 @@ const App = () => {
 						<button>
 							<FaBars className="icon" />
 						</button>
-						<button className="btn__nav">All</button>
+						<button className="btn__nav btn__nav-active">All</button>
 						<button className="btn__nav">Images</button>
 					</li>
 					<li>
