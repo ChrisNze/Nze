@@ -1,6 +1,7 @@
 import logo from "./logo.png";
 import "./App.css";
 import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
 import { TiThSmall } from "react-icons/ti";
 import { BiSearchAlt2 } from "react-icons/bi";
 import { TiMicrophoneOutline } from "react-icons/ti";
@@ -27,6 +28,22 @@ const App = () => {
 					</li>
 					<li class="navigation__list-item navigation__list-item-4">
 						<button class="navigation__link navigation__link-4">Sign in</button>
+					</li>
+				</ul>
+
+				<ul className="navigation__mobile">
+					<li>
+						<button>
+							<FaBars className="icon" />
+						</button>
+						<button className="btn__nav">All</button>
+						<button className="btn__nav">Images</button>
+					</li>
+					<li>
+						<button>
+							<TiThSmall className="icon" />
+						</button>
+						<button className="acct__btn">C</button>
 					</li>
 				</ul>
 			</nav>
