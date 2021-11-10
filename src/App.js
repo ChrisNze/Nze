@@ -31,7 +31,7 @@ const App = () => {
 				</ul>
 			</nav>
 			<main class="content__wrapper">
-				{inputText ? <p>{inputText}</p> : <img src={logo} alt="Side Hustle Image" className="logo" />}
+				{inputText ? <p>{inputText}</p> : <img src={logo} alt="Side Hustle logo" className="logo" />}
 				<form method="GET" class="form">
 					<button class="icon__link-1">
 						<BiSearchAlt2 />
