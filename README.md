@@ -1,19 +1,19 @@
-#### TEAM
+# TEAM
 
 TEAM SANSA
 
-# Project Description
+## Project Description
 
 This project was developed with React js to provide a useable experience across all modern web browsers
 
-## Task Involved
+### Task Involved
 
 1. Recreate the goggle homepage (https://www.google.com) using React Js
 2. Replace the Google Logo with SideHustle logo
 3. Update the SideHustle logo with User Input
 4. Display SideHustle logo when Input field is empty
 
-### Steps Taken
+#### Steps Taken
 
 1. Installation of Node js
 2. Creating of React App on Command Prompt (npx create-react-app appName)
@@ -23,7 +23,7 @@ This project was developed with React js to provide a useable experience across 
 6. Pushing the Project to github (https://github.com/ChrisNze/Nze.git)
 7. Hosting the site on netlify (https://team-sansa-project.netlify.app/)
 
-#### Members of the Team
+##### Members of the Team
 
 1. Nzeanorue Christian Chukwuemeka
 2. Tunji Mafe
