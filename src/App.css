@@ -367,9 +367,11 @@ button {
 	.navigation__mobile li button:not(:first-child) {
 		margin-left: 2rem;
 	}
+	.navigation__mobile li .btn__nav:active,
 	.navigation__mobile li .btn__nav-active {
 		display: flex;
 		justify-content: center;
+		background-color: transparent;
 		align-items: center;
 		padding: 1.5rem 1rem;
 		border-bottom: 2px solid rgba(101, 101, 202, 0.822);
