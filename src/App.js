@@ -15,35 +15,29 @@ const App = () => {
 			<nav class="navigation">
 				<ul class="navigation__list">
 					<li class="navigation__list-item">
-						<button href="#" class="navigation__link navigation__link-1">
-							Gmail
-						</button>
+						<button class="navigation__link navigation__link-1">Gmail</button>
 					</li>
 					<li class="navigation__list-item">
-						<button href="#" class="navigation__link navigation__link-2">
-							Images
-						</button>
+						<button class="navigation__link navigation__link-2">Images</button>
 					</li>
 					<li class="navigation__list-item navigation__list-item-3" title="Google apps">
-						<button href="#" class="navigation__link navigation__link-3">
+						<button class="navigation__link navigation__link-3">
 							<TiThSmall className="icon" />
 						</button>
 					</li>
 					<li class="navigation__list-item navigation__list-item-4">
-						<button href="#" class="navigation__link navigation__link-4">
-							Sign in
-						</button>
+						<button class="navigation__link navigation__link-4">Sign in</button>
 					</li>
 				</ul>
 			</nav>
 			<main class="content__wrapper">
 				{inputText ? <p>{inputText}</p> : <img src={logo} alt="Side Hustle Image" className="logo" />}
 				<form method="GET" class="form">
-					<button href="#" class="icon__link-1">
+					<button class="icon__link-1">
 						<BiSearchAlt2 />
 					</button>
 					<input type="text" class="input__text" onChange={changeImage} />
-					<button href="#" class="icon__link-2">
+					<button class="icon__link-2">
 						<TiMicrophoneOutline />
 					</button>
 				</form>
@@ -55,24 +49,16 @@ const App = () => {
 					<p>Google offered in:</p>
 					<ul class="languages">
 						<li>
-							<button href="#" class="hausa">
-								Hausa
-							</button>
+							<button class="hausa">Hausa</button>
 						</li>
 						<li>
-							<button href="#" class="igbo">
-								Igbo
-							</button>
+							<button class="igbo">Igbo</button>
 						</li>
 						<li>
-							<button href="#" class="yoruba">
-								Ede Yoruba
-							</button>
+							<button class="yoruba">Ede Yoruba</button>
 						</li>
 						<li>
-							<button href="#" class="pidgin">
-								Nigerian Pidgin
-							</button>
+							<button class="pidgin">Nigerian Pidgin</button>
 						</li>
 					</ul>
 				</div>
@@ -81,32 +67,32 @@ const App = () => {
 				<p class="nigeria">Nigeria</p>
 				<div class="copywrite">
 					<p class="copywrite__text">
-						<button href="#">Carbon neutral since 2007</button>
+						<button>Carbon neutral since 2007</button>
 					</p>
 					<div class="footer__link">
 						<ul class="footer__navigation-list">
 							<li>
-								<button href="#">About</button>
+								<button>About</button>
 							</li>
 							<li>
-								<button href="#">Advertising</button>
+								<button>Advertising</button>
 							</li>
 							<li>
-								<button href="#">Business</button>
+								<button>Business</button>
 							</li>
 							<li>
-								<button href="#">How it works</button>
+								<button>How it works</button>
 							</li>
 						</ul>
 						<ul class="footer__terms">
 							<li>
-								<button href="#">Privacy</button>
+								<button>Privacy</button>
 							</li>
 							<li>
-								<button href="#">Terms</button>
+								<button>Terms</button>
 							</li>
 							<li>
-								<button href="#">Settings</button>
+								<button>Settings</button>
 							</li>
 						</ul>
 					</div>
