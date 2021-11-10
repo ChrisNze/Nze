@@ -15,7 +15,7 @@ const App = () => {
 			<nav class="navigation">
 				<ul class="navigation__list">
 					<li class="navigation__list-item">
-						<button class="navigation__link navigation__link-1">Mail</button>
+						<button class="navigation__link navigation__link-1">Gmail</button>
 					</li>
 					<li class="navigation__list-item">
 						<button class="navigation__link navigation__link-2">Images</button>
