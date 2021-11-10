@@ -367,7 +367,7 @@ button {
 	.navigation__mobile li button:not(:first-child) {
 		margin-left: 2rem;
 	}
-	.navigation__mobile li .btn__nav:active,
+
 	.navigation__mobile li .btn__nav-active {
 		display: flex;
 		justify-content: center;
