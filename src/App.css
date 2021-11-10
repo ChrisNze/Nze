@@ -285,3 +285,61 @@ button {
 		width: 50%;
 	}
 }
+
+@media only all and (max-width: 400px) {
+	html {
+		font-size: 52%;
+	}
+
+	.goggle__language ul li button,
+	.footer * {
+		font-size: 1.3rem;
+	}
+
+	.goggle__language {
+		padding-left: 3rem;
+	}
+}
+
+@media only all and (max-width: 350px) {
+	html {
+		font-size: 50%;
+	}
+
+	.goggle__language ul li button,
+	.footer * {
+		font-size: 1.3rem;
+	}
+
+	.content__wrapper .goggle__language .languages {
+		flex-wrap: wrap;
+	}
+}
+
+@media only all and (max-width: 270px) {
+	html {
+		font-size: 42%;
+	}
+
+	button {
+		font-size: 1.6rem;
+	}
+	.button__div {
+		display: none;
+	}
+
+	.goggle__language {
+		margin-top: 4rem;
+	}
+
+	.footer .footer__link .footer__navigation-list,
+	.footer .footer__link .footer__terms {
+		flex-wrap: wrap;
+	}
+}
+
+@media only all and (max-width: 200px) {
+	button {
+		font-size: 1.2rem;
+	}
+}
