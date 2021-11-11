@@ -68,7 +68,7 @@ button {
 	border-radius: 100%;
 }
 .navigation__list-item-4 {
-	background-color: #8ab4f8;
+	background-color: rgba(21, 185, 108, 0.493);
 	padding: 0.9rem 2.3rem;
 	border-radius: 0.4rem;
 }
@@ -114,6 +114,7 @@ button {
 .icon__link-2 {
 	font-size: 2.5rem;
 	transform: translateX(-4rem);
+	color: rgb(21, 185, 108);
 }
 .input__text {
 	text-align: center;
@@ -374,11 +375,11 @@ button {
 		background-color: transparent;
 		align-items: center;
 		padding: 1.5rem 1rem;
-		border-bottom: 2px solid rgba(101, 101, 202, 0.822);
+		border-bottom: 2px solid rgba(21, 185, 108, 0.808);
 	}
 	.navigation__mobile li .acct__btn {
 		font-size: 1.6rem;
-		background-color: rgba(101, 101, 202, 0.822);
+		background-color: rgba(21, 185, 108, 0.493);
 		display: flex;
 		justify-content: center;
 		align-items: center;
