@@ -29,3 +29,11 @@ This project was developed with React js to provide a useable experience across 
 2. Tunji Mafe
 3. Finyahrua Adrian John
 4. Okay Michael-LC
+
+# Experience learning React JS so far in SideHustle Internship
+
+SideHustle internship is a dream come through for aspiring young developers like us. We have learnt a lot in React Js ever since the internship started. Before now, we weren't able to build a User Interface using React JS but gradually, we are learning it.
+
+SideHustle React JS Mentor is really doing a good job in making sure that we are well equipped in React Js. Every week, we are given a well explained tutorial videos to aid us in our learning, after which we take an online quiz to ensure that we grab all that were thought for that week. This project is the first project we are doing and more are yet to come.
+
+We say a very thank you to SideHustle for this great opportunity.
